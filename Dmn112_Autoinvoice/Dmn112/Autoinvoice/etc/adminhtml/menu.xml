@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Dmn112_Autoinvoice::content_elements" title="Dmn112" module="Magento_Backend" sortOrder="11" parent="Magento_Backend::content"
+             resource="Magento_Backend::content_elements"/>
+        <add id="Dmn112_Autoinvoice::dmn112_autoinvoice" title="Auto Invoice" module="Dmn112_Autoinvoice" sortOrder="11" parent="Dmn112_Autoinvoice::content_elements" action="adminhtml/system_config/edit/section/dolphin"
+             resource="Dmn112_Autoinvoice::autoinvoice"/>
+    </menu>
+</config>
